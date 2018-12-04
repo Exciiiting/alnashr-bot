@@ -58,7 +58,7 @@ https://discord.gg/EGn6JAg
   return channel.send(`${words[Math.floor(Math.random() * words.length)]}`) 
 }).catch(console.error)
 }, timer)
-})
+100000})
     
  
 
