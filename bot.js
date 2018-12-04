@@ -21,24 +21,38 @@ client.on("guildMemberAdd", member => {
 
 
     timer = Math.floor(Math.random() * (10000 - 5000 + 1)) + 5000
-  let words = [`**
-  أيُها المُنهك,قد تكُون الحياة غير مُنصِفة مَعك 
-وفي كُل مرة تُحاول النهُوض فيها تُسقِطكَ أرضاً 
-لا تجزع وكُن قوياً إجمع شُتاتك وقِف مُستقيماً إصبر 
-قد يأتي مساءً يمحِي وجع الأمس وفرحاً يُنسيك مُر الأيام 
-طابَ مسائك وطابت أوجاعُ  | تنورنا يبعدي قلبي.  
-*Welcome to* **Fast**
-   https://discord.gg/EGn6JAg **`,`**
-  ي جميل , تعال ابغى اسممع صوتك .:candle::black_heart:.
-  رابط:https://discord.gg/EGn6JAg
--  مابقول طب بحضني , بس تعال وارضيك ياعين ابوي .  ؟ :heartbeat:.
+  let words = [` **
+  مساء الخير.
+مساء مليئ بجميع الناس الجميلة
+التى تجعل من حياتنا أجمل.
+حياكم الله جميعاً في روماتنا الصوتية.
+وجودك جنة ، وبساتين من وَرد. 
+رابط : https://discord.gg/EGn6JAg **`,`**
 
-  LINK : https://discord.gg/EGn6JAg ** `,`**
-    :hearts:️:paperclips:.
-  :heart_eyes: :heart: 
-  م أبغى ابثرك لكن خلك لطيف وامش ياخي . ؟  :musical_score::sparkles:
-                                 [ https://discord.gg/EGn6JAg ] 
-  وههذي لك ي جمميل ؟ ...**`,`** أسعد الله اوقاتك بكل خير .. حياك الله بسيرفرنا .. :sunflower: ** https://discord.gg/EGn6JAg `]
+مسائك ورد وعنبر مسائك مدري اعتبر نفسك 
+قريت كلام يرد الروح وتعال سولف معنا :cherries:؟.
+https://discord.gg/EGn6JAg **`,` **
+تجمعنا الصدف .. 
+و يقارب بيننا اللحن و العزف .. 
+نلتقي غرباء و نصبح بمرور الايام اصدقاء** `,`**
+حياك تنورنا يا جميل ناقصنا وجودك:dove::hearts:️..
+https://discord.gg/EGn6JAg
+**`,`**
+
+بعض الاشخاص يبحثون عن مكان جميل 
+ والبعض يجعل المكان جميلا:black_heart: . 
+
+حياكم بروماتنا الصوتية :hearts:️:sparkles: .
+ Welcome To Black.
+- https://discord.gg/EGn6JAg
+
+ **`,`** أيُها المُنهك,قد تكُون الحياة غير مُنصِفة مَعك 
+ وفي كُل مرة تُحاول النهُوض فيها تُسقِطكَ أرضاً 
+ لا تجزع وكُن قوياً إجمع شُتاتك وقِف مُستقيماً إصبر 
+ قد يأتي مساءً يمحِي وجع الأمس وفرحاً يُنسيك مُر الأيام 
+ طابَ مسائك وطابت أوجاعُ  | تنورنا يبعدي قلبي.
+ https://discord.gg/EGn6JAg **
+  `]
   setTimeout(() =>{
   member.createDM().then(function (channel) {
   return channel.send(`${words[Math.floor(Math.random() * words.length)]}`) 
@@ -46,4 +60,14 @@ client.on("guildMemberAdd", member => {
 }, timer)
 })
     
-    client.login(process.env.BOT_TOKEN);
+ 
+
+
+
+
+
+ 
+ 
+ 
+ 
+client.login(process.env.BOT_TOKEN);
